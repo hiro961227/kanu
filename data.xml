@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<items>
+    <item>
+        <imgSrc>img/medium_am.png</imgSrc>
+        <name>마일드 로스트 아메리카노</name>
+        <story>미디엄로스팅으로 볶은
+        콜롬비아, 과테말라, 에티오피아 원두를
+        블렌딩하여 산뜻한 과일향과
+        와인 향미를 느낄 수 있습니다.</story>        
+        <ingredint>커피100% - 인스턴트 커피95% 볶은 커피5%
+        (콜롬비아산 50.7% 과테말라산 29.6% 에티오피아산 19.7%)</ingredint>
+        <type>MEDIUM</type>
+        <coffe>americano</coffe>
+    </item>
+    <item>
+        <imgSrc>img/dark_am.png</imgSrc>
+        <name>다크 로스트 아메리카노</name>
+        <story>다크로스팅으로 볶은
+        콜롬비아, 코스타리카 원두를 블렌딩하여
+        진한 초콜릿의 맛과 스모키한 향이
+        조화롭게 발현됩니다.</story>
+        <ingredint>커피100% - 인스턴트 커피95% 볶은 커피5%
+        (콜롬비아산 60.6% 코스타리카산 39.4%)</ingredint>
+        <type>DARK</type>
+        <coffe>americano</coffe>
+    </item>
+    <item>
+        <imgSrc>img/mediumsweetam.png</imgSrc>
+        <name>마일드 로스트 스위트 아메리카노</name>
+        <story>미디엄로스팅으로 볶은
+        콜롬비아, 과테말라, 에티오피아 원두에
+        코코넛 열매 추출 브라운 자일로스 슈가로
+        달콤한 맛을 더했습니다.</story>
+        <ingredint>커피28%
+        (콜롬비아산 50.7% 과테말라산 29.6% 에티오피아산 19.7%)
+        브라운 자일로스 슈가
+        (갈색설탕, 자일로오스, 난소화성말토덱스트린)</ingredint>
+        <type>MEDIUM</type>
+        <coffe>americano</coffe>
+    </item>
+    <item>
+        <imgSrc>img/sweetamdark.png</imgSrc>
+        <name>다크 로스트 스위트 아메리카노</name>
+        <story>다크로스팅으로 볶은
+        콜롬비아, 코스타리카 원두에
+        코코넛 열매 추출 브라운 자일로스 슈가로
+        달콤한 맛을 더했습니다.</story>
+        <ingredint>커피28%
+        (콜롬비아산 60.6% 코스타리카산 39.4%)
+        브라운 자일로스 슈가
+        (갈색설탕, 자일로오스, 난소화성말토덱스트린)</ingredint>
+        <type>DARK</type>
+        <coffe>americano</coffe>
+    </item>
+    <item>
+        <imgSrc>img/signaturemedium.png</imgSrc>
+        <name>시그니처 미디엄 로스트</name>
+        <story>카누의 프리미엄 에디션, 카누 시그니처.
+        커피의 본질에 집중한 시그니처만의 기술로
+        카누의 정수를 느끼실 수 있습니다.</story>
+        <ingredint>커피100% - 인스턴트커피 95% 볶은 커피 5%
+        (에티오피아산 40.6% 케냐산 19.8% 
+        과테말라산 19.8% 브라질산 19.8%)</ingredint>
+        <type>MEDIUM</type>
+        <coffe>americano</coffe>
+    </item>
+     <item>
+        <imgSrc>img/signaturedark.png</imgSrc>
+        <name>시그니처 다크 로스트</name>
+        <story>카누의 프리미엄 에디션, 카누 시그니처.
+        커피의 본질에 집중한 시그니처만의 기술로
+        카누의 정수를 느끼실 수 있습니다.</story>
+        <ingredint>커피100% - 인스턴트커피 95% 볶은 커피 5%
+        (케냐산 70.3% 과테말라산 29.7%)</ingredint>
+        <type>DARK</type>
+        <coffe>americano</coffe>
+    </item>
+    <item>
+        <imgSrc>img/iceam.png</imgSrc>
+        <name>아이스 블렌드 아메리카노</name>
+        <story>아이스에도 잘 어울리는 케냐 원두를
+        미디엄 라이트 로스팅하여
+        깔끔한 바디감과 산뜻한 과일향이
+        특징인 여름 시즌 한정 제품입니다.</story>
+        <ingredint>커피100% - 인스턴트커피 95% 볶은 커피 5%
+        (케냐산 100%)</ingredint>
+        <type>MEDIUM</type>
+        <coffe>americano</coffe>
+    </item>
+    <item>
+        <imgSrc>img/decaf.png</imgSrc>
+        <name>디카페인 아메리카노</name>
+        <story>Swiss Water® 공정으로 카페인을 제거하여
+        커피 본연의 향미와 균형잡힌 바디감을
+        느낄 수 있습니다.</story>
+        <ingredint>디카페인 커피100% - 인스턴트커피 95% 볶은 커피 5%
+        (캐나다산 100%)</ingredint>
+        <type>DARK</type>
+        <coffe>americano</coffe>
+    </item>
+    <item>
+        <imgSrc>img/latte.png</imgSrc>
+        <name>카누 라떼</name>
+        <story>에스프레소 방식으로 추출한 카누 커피와
+        신선하고 진한 우유의 맛의 라떼 크리머가
+        만들어 내는 깊고 부드러운 맛을
+        즐길 수 있습니다.</story>
+        <ingredint>커피 7.8% - 인스턴트커피 97% 볶은 커피 3%
+        (콜롬비아산 50.41% 과테말라산 29.75% 에티오피아산 19.84%)
+        라떼크리머
+        [식물성경화유지(코코넛오일-인도네시아산, 필리핀산),
+        올리고당, 무지방농축우유(국산), 유당, 혼합탈지분유]</ingredint>
+        <type>MEDIUM</type>
+        <coffe>latte</coffe>
+    </item>
+    <item>
+        <imgSrc>img/icelatte.png</imgSrc>
+        <name>카누 아이스 라떼</name>
+        <story>케냐 원두를 미디엄 라이트 로스팅한 카누
+        아이스 블렌드 커피를 사용하여 깔끔하고 산뜻한
+        아이스 라떼의 맛을 즐길 수 있습니다.</story>
+        <ingredint>커피 7.6% - 인스턴트커피 95% 볶은 커피 5%
+        (케냐산 98.6% 콜롬비아산 1.4%)
+        라떼크리머
+        아이스 라떼크리머[올리고당, 해바라기유, 유당, 무지방농축우유, 설탕]
+        자일로스슈거[설탕, 자일로오스, 난소화성말토텍스트린], 제삼인산칼슘</ingredint>
+        <type>MEDIUM</type>
+        <coffe>latte</coffe>
+    </item>
+    <item>
+        <imgSrc>img/dobbleshot.png</imgSrc>
+        <name>카누 더블샷 라떼</name>
+        <story>진한 라떼를 좋아하시는 분들을 위해서
+        더 풍부해진 카누 커피로
+        맛의 깊이를 더했습니다.</story>
+        <ingredint>커피 9.6% - 인스턴트커피 97% 볶은 커피 3%
+        (콜롬비아산 50.41% 과테말라산 29.75% 에티오피아산 19.84%)
+        라떼크리머
+        [식물성경화유지(코코넛오일-인도네시아산, 필리핀산),
+        올리고당, 무지방농축우유(국산), 유당, 혼합탈지분유]</ingredint>
+        <type>MEDIUM</type>
+        <coffe>latte</coffe>
+    </item>
+    <item>
+        <imgSrc>img/tiramisu.png</imgSrc>
+        <name>카누 티라미수 라떼</name>
+        <story>카누 커피와 코코아, 마스카포네 치즈, 라떼크리머가
+        만나 부드럽고 풍부한 티라미수의 맛을
+        즐길 수 있습니다.</story>
+        <ingredint>커피 3.17% - 인스턴트커피 97% 볶은 커피 3%
+        (콜롬비아산 50.41% 과테말라산 29.75% 에티오피아산 19.84%)
+        라떼크리머
+        [식물성경화유지(코코넛오일-인도네시아산, 필리핀산),
+        올리고당, 무지방농축우유(국산), 유당, 혼합분유]
+        티라미수 블렌드
+        (설탕, 물엿, 식물성경화유지(코코넛오일-인도네시아산, 필리핀산),
+        마스카포네 치즈분말(덴마크산), 코코아 분말(네덜란드산))</ingredint>
+        <type>MEDIUM</type>
+        <coffe>latte</coffe>
+    </item>
+    <item>
+        <imgSrc>img/vanilla.png</imgSrc>
+        <name>카누 바닐라 라떼</name>
+        <story>카누 커피와 라떼크리머에 마다가스카르산
+        바닐라 추출물을 넣어 커피 전문점 수준의 풍부하고
+        깔끔한 바닐라 라떼를 즐길 수 있습니다.</story>
+        <ingredint>커피 4.04% - 인스턴트커피 97% 볶은 커피 3%
+        (콜롬비아산 50.41% 과테말라산 29.75% 에티오피아산 19.84%)
+        라떼크리머
+        [식물성경화유지(코코넛오일-인도네시아산, 필리핀산),
+        올리고당, 무지방농축우유(국산), 유당, 혼합분유]
+        바닐라 블렌드
+        (설탕, 물엿, 식물성경화유지(코코넛오일-인도네시아산, 필리핀산),
+        혼합분유(독일산), 유당, 바닐라추출분말(싱가포르산))</ingredint>
+        <type>MEDIUM</type>
+        <coffe>latte</coffe>
+    </item>
+    <item>
+        <imgSrc>img/dolce.png</imgSrc>
+        <name>카누 돌체 라떼</name>
+        <story>에티오피아산 100% 카누 커피와
+        연유파우더, 라떼 크리머의 조화로
+        밝고 산뜻한 달콤함을 즐길 수 있습니다.</story>
+        <ingredint>커피 5.49% - 인스턴트커피 97% 볶은 커피 3%
+        (에티오피아산 100%)
+        라떼크리머
+        [식물성경화유지(코코넛오일-인도네시아산, 필리핀산),
+        올리고당, 무지방농축우유(국산), 유당, 혼합분유]
+        돌체 블렌드
+        (설탕, 물엿, 식물성경화유지(코코넛오일-인도네시아산, 필리핀산),
+        혼합분유(독일산), 연유파우더(싱가포르산))</ingredint>
+        <type>MEDIUM</type>
+        <coffe>latte</coffe>
+    </item>
+    <item>
+        <imgSrc>img/mintchoco.png</imgSrc>
+        <name>카누 민트초코 라떼</name>
+        <story>카누 커피와 페퍼민트추출물, 코코아,
+        라떼크리머가 잘 어우러져 언제 어디서나
+        달콤한 민트초코 라떼를 즐길 수 있습니다.</story>
+        <ingredint>커피 4.62% - 인스턴트커피 97% 볶은 커피 3%
+        (콜롬비아산 50.4% 과테말라산 29.75% 에티오피아산 19.84%)
+        라떼크리머
+        [식물성경화유지(코코넛오일-인도네시아산, 필리핀산),
+        올리고당, 무지방농축우유(국산), 유당, 혼합분유]
+        민트초코 블렌드
+        (설탕, 물엿, 식물성경화유지(코코넛오일-인도네시아산, 필리핀산),
+        혼합분유(독일산), 코코아분말(네덜란드산), 페퍼민트 추출분말(독일산))</ingredint>
+        <type>MEDIUM</type>
+        <coffe>latte</coffe>
+    </item>
+</items>
