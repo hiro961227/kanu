@@ -306,6 +306,8 @@ main #brand .brandright .brandmain img { width: 30%; padding: 1% 0; }
 
 main #brand .brandright .brandmain span { width: 78%; padding-top: 5%; display: block; text-align: right; }
 
+main #brand .brandright .brandmain span:hover { font-weight: bold; color: #a01f24; }
+
 footer { width: 100%; height: 8vh; background-color: #e3e6e9; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 footer img { width: 130px; height: 35px; padding: 0 1%; }
