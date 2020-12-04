@@ -81,10 +81,10 @@ $(function(){
 
           var coffe, type, imgSrc, name, story, ingredint;
           function funList(code){
-              var amestory, lattestory, detailimg, detailstoryH3, detailstoryP, darkormedium, ingredient
+              var amestory='', lattestory='', detailimg, detailstoryH3, detailstoryP, darkormedium, ingredient
               $(data).find('item').each(function(i){
-                  
-                  imgSrc = $(this).find('imgSrc').text();
+
+                imgSrc = $(this).find('imgSrc').text();
                   name = $(this).find('name').text();
                   story = $(this).find('story').text();
                   ingredint = $(this).find('ingredint').text();
@@ -120,19 +120,20 @@ $(function(){
                     $('#product .detail .detailstory .ingredient').html(ingredient);
                   }
                   
-                  $('#product .americano .ameimg ul').html(amestory);
-                  $('#product .latte .latteimg ul').html(lattestory);
+                  if(code=='all'){
+                    $('#product .americano .ameimg ul').html(amestory);
+                    $('#product .latte .latteimg ul').html(lattestory);
+                  }
 
                 
                       
               });
                 
-              
-              //클릭을하면 새로고침이 되면서 비포애프터로 추가한 게 리셋되는 오류...
+
                //클릭 이벤트
               $('#product .americano .ameimg ul li, #product .latte .latteimg ul li').click(function(){
                 funList($(this).attr('data-num'));
-                $('#product .detail').css({display:"block",opacity:"0"}).animate({'opacity': 1}, 30);
+                $('#product .detail').css({display:"block",opacity:"0"}).animate({'opacity': 1}, 250);
               });
               $('#product .detail .close').click(function(){
                 $('#product .detail').css({display:"none",opacity:"0"});
@@ -153,7 +154,7 @@ $(function(){
                   if(idx == 0){
                     firstame.before(lastam); 
                   }else{
-                    lastam.after(firstame);
+                    lastam.stop().after(firstame);
                   }                
               });
               $('.latte .prevbtn, .latte .nextbtn').on('click',function(){
@@ -162,46 +163,16 @@ $(function(){
                 lastlatte = $('#product .latte .latteimg ul li:last');
                 
                   if(idx == 0){
-                    firstlatte.before(lastlatte); 
+                    firstlatte.stop().before(lastlatte); 
                   }else{
-                    lastlatte.after(firstlatte);
+                    lastlatte.stop().after(firstlatte);
                   }                
               });
 
-              //이거...........스무스하게하나씩움직이는거해결              
-              //드래그 이벤트
-              $('#product .americano .ameimg').on('dragover',function(){
-                console.log('b');
-
-                var idx = $(this).index();
-                
-                firstame = $('#product .americano .ameimg ul li:first');
-                lastam = $('#product .americano .ameimg ul li:last');
-                
-                  if(idx == 0){
-                    firstame.before(lastam); 
-                  }else{
-                    lastam.after(firstame);
-                  } 
-              });
-              $('#product .latte .latteimg').on('dragover',function(){
-                console.log('b');
-
-                var idx = $(this).index();
-                
-                  firstlatte = $('#product .latte .latteimg ul li:first');
-                  lastlatte = $('#product .latte .latteimg ul li:last');
-                  
-                    if(idx == 0){
-                      firstlatte.before(lastlatte); 
-                    }else{
-                      lastlatte.after(firstlatte);
-                    }  
-              });
 
           //
           }
-          funList(0);    
+          funList('all');    
                    
       //
       }

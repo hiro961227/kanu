@@ -138,7 +138,7 @@ main #product { position: relative; }
 
 main #product h1 { width: 96%; margin: 0 auto; height: 6vh; font-size: 2em; font-weight: 400; padding-top: 1%; }
 
-main #product .detail { display: none; -webkit-transition: .8s; transition: .8s; width: 500px; padding-bottom: 2%; margin: 0 auto; background-color: #e3e6e9; position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); text-align: center; }
+main #product .detail { display: none; width: 500px; padding-bottom: 2%; margin: 0 auto; background-color: #e3e6e9; position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); text-align: center; }
 
 main #product .detail .close { z-index: 5; width: 50px; height: 50px; cursor: pointer; }
 
@@ -184,7 +184,7 @@ main #product .americano .ameimg { width: 100%; height: 220px; background-color:
 
 main #product .americano .ameimg .prevbtn { width: 50px; height: 50px; z-index: 5; position: absolute; left: 5%; top: 40%; }
 
-main #product .americano .ameimg .prevbtn span { position: absolute; left: 0%; top: 0%; width: 25px; height: 4px; border-radius: 30%; background-color: #322926; }
+main #product .americano .ameimg .prevbtn span { cursor: pointer; position: absolute; left: 0%; top: 0%; width: 25px; height: 4px; border-radius: 30%; background-color: #322926; }
 
 main #product .americano .ameimg .prevbtn span:nth-of-type(1) { -webkit-transform: rotate(-45deg) translateY(-11px); transform: rotate(-45deg) translateY(-11px); }
 
@@ -192,7 +192,7 @@ main #product .americano .ameimg .prevbtn span:nth-of-type(2) { -webkit-transfor
 
 main #product .americano .ameimg .nextbtn { width: 50px; height: 50px; z-index: 5; position: absolute; left: 93%; top: 40%; }
 
-main #product .americano .ameimg .nextbtn span { position: absolute; left: 0%; top: 0%; width: 25px; height: 4px; border-radius: 30%; background-color: #322926; }
+main #product .americano .ameimg .nextbtn span { cursor: pointer; position: absolute; left: 0%; top: 0%; width: 25px; height: 4px; border-radius: 30%; background-color: #322926; }
 
 main #product .americano .ameimg .nextbtn span:nth-of-type(1) { -webkit-transform: rotate(45deg) translateY(-11px); transform: rotate(45deg) translateY(-11px); }
 
@@ -200,7 +200,7 @@ main #product .americano .ameimg .nextbtn span:nth-of-type(2) { -webkit-transfor
 
 main #product .americano .ameimg ul { width: 65%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; overflow: hidden; }
 
-main #product .americano .ameimg ul li { width: 100%; padding: 0 5%; }
+main #product .americano .ameimg ul li { width: 100%; -webkit-transition: .5s; transition: .5s; padding: 0 5%; }
 
 main #product .americano .ameimg ul li img { width: 160px; -webkit-transition: .4s; transition: .4s; }
 
@@ -218,7 +218,7 @@ main #product .latte .latteimg { width: 100%; height: 220px; background-color: #
 
 main #product .latte .latteimg .prevbtn { width: 50px; height: 50px; z-index: 5; position: absolute; left: 5%; top: 85%; }
 
-main #product .latte .latteimg .prevbtn span { position: absolute; left: 0%; top: 0%; width: 25px; height: 4px; border-radius: 30%; background-color: #322926; }
+main #product .latte .latteimg .prevbtn span { cursor: pointer; position: absolute; left: 0%; top: 0%; width: 25px; height: 4px; border-radius: 30%; background-color: #322926; }
 
 main #product .latte .latteimg .prevbtn span:nth-of-type(1) { -webkit-transform: rotate(-45deg) translateY(-11px); transform: rotate(-45deg) translateY(-11px); }
 
@@ -226,7 +226,7 @@ main #product .latte .latteimg .prevbtn span:nth-of-type(2) { -webkit-transform:
 
 main #product .latte .latteimg .nextbtn { width: 50px; height: 50px; z-index: 5; position: absolute; left: 93%; top: 85%; }
 
-main #product .latte .latteimg .nextbtn span { position: absolute; left: 0%; top: 0%; width: 25px; height: 4px; border-radius: 30%; background-color: #322926; }
+main #product .latte .latteimg .nextbtn span { cursor: pointer; position: absolute; left: 0%; top: 0%; width: 25px; height: 4px; border-radius: 30%; background-color: #322926; }
 
 main #product .latte .latteimg .nextbtn span:nth-of-type(1) { -webkit-transform: rotate(45deg) translateY(-11px); transform: rotate(45deg) translateY(-11px); }
 

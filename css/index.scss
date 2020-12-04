@@ -231,7 +231,6 @@ main{
         }
         .detail{
             display:none;
-            transition: .8s;
             width:500px; 
             padding-bottom:2%;
             margin:0 auto;
@@ -335,6 +334,7 @@ main{
                         position: absolute;
                         left:5%; top:40%;
                         span{
+                            cursor: pointer;
                             position: absolute;
                             left:0%; top:0%;
                             width:25px; height:4px;                    
@@ -350,6 +350,7 @@ main{
                         position: absolute;
                         left:93%; top:40%;
                         span{
+                            cursor: pointer;
                             position: absolute;
                             left:0%; top:0%;
                             width:25px; height:4px;                    
@@ -366,6 +367,7 @@ main{
                     overflow: hidden;
                     li{
                         width:100%;
+                        transition:.5s;
                         padding:0 5%;
                         img{width:160px; transition:.4s;}
                         img:hover{width:200px;}
@@ -394,6 +396,7 @@ main{
                     position: absolute;
                     left:5%; top:85%;
                     span{
+                        cursor: pointer;
                         position: absolute;
                         left:0%; top:0%;
                         width:25px; height:4px;                    
@@ -409,6 +412,7 @@ main{
                     position: absolute;
                     left:93%; top:85%;
                     span{
+                        cursor: pointer;
                         position: absolute;
                         left:0%; top:0%;
                         width:25px; height:4px;                    
