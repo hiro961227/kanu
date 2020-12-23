@@ -41,7 +41,17 @@ $(function(){
             });
         }
     });
-    
+    $('nav a').eq(4).click(function(e){
+      e.preventDefault();
+      var newtap = window.open("about:blank");
+      newtap.location.href = $(this).attr('href');
+    });
+    $('nav a').eq(5).click(function(e){
+      e.preventDefault();
+      var newtap = window.open("about:blank");
+      newtap.location.href = $(this).attr('href');
+    });
+
     //화면 스크롤 이벤트
 
     var bln = false;
@@ -127,6 +137,11 @@ $(function(){
 
                 
                       
+              });
+
+              //스크롤이벤트
+              $(window).on('mousewheel',function(){
+                $('#product .detail').fadeOut(200);
               });
                 
 
